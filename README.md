@@ -1,26 +1,22 @@
-# Focus Chrome Extension
+# Focus Chrome Extension 🌟😵‍💫
 
 FocusMax is a powerful Chrome extension designed to help users maintain focus and boost productivity by blocking completely distracting websites and modifying partially distracting ones. This extension integrates uBlock Origin to block ads, trackers, and miners, providing users with a distraction-free browsing experience.
 
-## Features
+## Features 🎉
 
-1. **Website Blocking:**
+1. **Website Blocking:** ⛔
    - Block completely distracting websites that can hinder productivity.
    - Users can add or remove specific sites from the blocking list.
 
-2. **Partial Modification:**
+2. **Partial Modification:** 🔀
    - Modify partially distracting websites, such as YouTube, to minimize distractions.
    - Customize settings to control the level of modification.
 
-3. **uBlock Origin Integration:**
+3. **uBlock Origin Integration:** 🚫
    - Enhance privacy and security by blocking ads, trackers, and miners.
    - Toggle the amount of ads to be blocked based on user preference.
 
-4. **User-Friendly Interface:**
-   - Intuitive settings menu for easy customization.
-   - Real-time feedback on blocked content and modified sites.
-
-## Installation
+## Installation 📲
 
 1. Clone this repository to your local machine.
 
@@ -36,7 +32,7 @@ FocusMax is a powerful Chrome extension designed to help users maintain focus an
 5. The FocusMax extension will now appear in your Chrome extensions.
    ![image](https://github.com/anpinghuang/Focus-Extension/assets/118650416/bae12c5b-6b1a-48e7-ade1-47648957647c)
 
-## Usage
+## Usage 🤯
 Click on the FocusMax icon in the Chrome toolbar to access the settings menu.
 
 Customize the list of completely blocked websites.
@@ -47,8 +43,8 @@ Toggle the uBlock Origin integration settings, including ad blocking preferences
 
 Enjoy a focused and distraction-free browsing experience.
 
-## License
+## License 📚
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
+## Acknowledgments 😎
 Focus uses uBlock Origin (https://github.com/gorhill/uBlock) for ad blocking and content filtering.
