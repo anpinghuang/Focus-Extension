@@ -1,6 +1,6 @@
 # Focus Chrome Extension 🌟😵‍💫
 
-FocusMax is a powerful Chrome extension designed to help users maintain focus and boost productivity by blocking completely distracting websites and modifying partially distracting ones. This extension integrates uBlock Origin to block ads, trackers, and miners, providing users with a distraction-free browsing experience.
+Focus is a powerful Chrome extension designed to help users maintain focus and boost productivity by blocking completely distracting websites and modifying partially distracting ones. This extension integrates uBlock Origin to block ads, trackers, and miners, providing users with a distraction-free browsing experience.
 
 ## Features 🎉
 
@@ -29,11 +29,11 @@ FocusMax is a powerful Chrome extension designed to help users maintain focus an
 
 4. Click on "Load unpacked" and select the cloned directory.
 
-5. The FocusMax extension will now appear in your Chrome extensions.
+5. The Focus extension will now appear in your Chrome extensions.
    ![image](https://github.com/anpinghuang/Focus-Extension/assets/118650416/bae12c5b-6b1a-48e7-ade1-47648957647c)
 
 ## Usage 🤯
-Click on the FocusMax icon in the Chrome toolbar to access the settings menu.
+Click on the Focus icon in the Chrome toolbar to access the settings menu.
 
 Customize the list of completely blocked websites.
 
