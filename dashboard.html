@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Page</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            justify-content: center;
+        }
+
+        #navbar {
+        display: flex;
+        justify-content: center;
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        }
+
+        #navbar button {
+            background-color: #ddd;
+            border: 1px solid #ccc;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.1s ease;
+        }
+
+        #navbar button:hover {
+            background-color: #bbb;
+        }
+
+        .content {
+            display: none;
+            text-align: center;
+        }
+
+        #aboutLinks {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        .li {
+            margin-top: 10px;
+        }
+        #author {
+            font-size: 15px;
+        }
+
+        #inputText {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 50%;
+            padding: 10px;
+            background-color: #f2f2f2;
+            border: none;
+            border-radius: 25px;
+            outline: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: width 0.3s ease;
+        }
+
+        #inputText:focus {
+            width:52%;
+        }
+
+        #addButton {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            border: 2px solid #3498db;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        #addButton:hover {
+            background-color: #fff;
+            color: #3498db;
+        }
+
+        /* block websites */
+        #inputList {
+            list-style: none;
+            display: flex;
+            flex-direction: column; /* Align items vertically */
+            align-items: center; /* Center items horizontally */
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #inputList li {
+            width: 100%; /* Make the items take the full width of the container */
+            text-align: left; /* Center the text inside each item */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .websites {
+            position: relative;
+            padding: 30px;
+            background-color: #f2f2f2;
+            height: 20px;
+            width: 50vw;
+            border-radius: 10px;
+
+        }
+
+
+        .trash {
+            position: absolute;
+            left: 90%;
+            top: 30%;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #dedede;
+        }
+        .trash img {
+            width: 20px;
+        }
+        
+        #ad {
+            top: 20px;
+            width: 30%;
+        }
+        #adContent p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <button id="homeTab" >Block Websites</button>
+        <button id="adTab" >AdBlock</button>
+        <button id="aboutTab" >About</button>
+    </div>
+
+    <!-- Homecontent-->
+    <div id="homeContent" class="content">
+        <h1>Add Websites to Block</h1>
+        <input type="text" id="inputText" placeholder="Websites...">
+        <button id="addButton">Add to Block List</button>
+
+        <ul id="inputList"></ul>
+    </div>
+
+    <div id="adContent" class="content">
+        <p>You can toggle Adblock settings by clicking on the popup menu</p>
+        <img id="ad" src="images/ad.png">
+        <p>Adblock (UBlock Origin) Blocks ads, trackers, miners, and more</p>
+    </div>
+
+    <!-- Aboutcontent -->
+    <div id="aboutContent" class="content">
+            <h2>Focus v1.0</h2>
+            <p>Build in Adblocker (uBlock Origin), and modifies webpages for maximum productivity and focus. <br> You can Toggle Adblock settings, and add custom websites to block. 
+                <br> YouTube is modified to minimize distraction.
+            </p>
+            <div id="author">Copyright (C) Anping Huang 2023</div>
+            <!-- About links -->
+            <div id="aboutLinks">
+                <div class="li"><a href="https://github.com/gorhill/uBlock/wiki/Privacy-policy"></a></div>
+                <div class="li"><a href="https://github.com/gorhill/uBlock" ></a></div>
+                
+                <div class="li"><span></span></div>
+                <div class="liul"> <!-- target="_blank" makes it open in new tab -->
+                    <div class="li"><span><a href="https://github.com/chrismsimpson/Metropolis" target="_blank">Metropolis font family</a> by <a href="https://github.com/chrismsimpson">Chris Simpson</a></span></div>
+                    <div class="li"><span><a href="https://github.com/rsms/inter" target="_blank">Inter font family</a> by <a href="https://github.com/rsms">Rasmus Andersson</a></span></div>
+                    <div class="li"><span><a href="https://fontawesome.com/" target="_blank">FontAwesome font family</a> by <a href="https://github.com/davegandy">Dave Gandy</a></span></div>
+                    <div class="li"><span><a href="https://github.com/mathiasbynens/punycode.js" target="_blank">Punycode.js</a> by <a href="https://github.com/mathiasbynens">Mathias Bynens</a></span></div>
+                    <div class="li"><span><a href="https://flagpedia.net/" target="_blank">Flags of the World</a> by <a href="https://www.davidkrmela.com/">David Krmela</a></span></div>
+                </div>
+    
+           
+    </div>
+
+    <!-- Link your external JavaScript file -->
+    <script src="dash.js"></script>
+
+</body>
+
+
+</html>

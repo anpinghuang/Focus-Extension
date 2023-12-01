@@ -1,0 +1,91 @@
+[
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "giadinhonline.vn\\/files\\/qc"
+  },
+  "id": 9
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "initiatorDomains": [
+    "xemphimchill.net"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "i.imgur.com"
+  },
+  "id": 10
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "initiatorDomains": [
+    "bongda21h.co",
+    "phimno4.xyz"
+   ],
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "media.discordapp"
+  },
+  "id": 11
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "storage.adpia.vn",
+   "resourceTypes": [
+    "image"
+   ]
+  },
+  "id": 281
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "\\w{2}\\.\\w+\\.com\\/\\w{13,}\\/\\w{5}$",
+   "resourceTypes": [
+    "script"
+   ]
+  },
+  "id": 400
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "\\w{60}\\.\\w{2,5}\\/\\w{84}\\.js",
+   "resourceTypes": [
+    "script"
+   ]
+  },
+  "id": 401
+ },
+ {
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "isUrlFilterCaseSensitive": false,
+   "regexFilter": "tinhocdongthap.com\\/wp-content\\/plugins\\/wp-[\\w-]+\\/[\\w-]+\\.js",
+   "resourceTypes": [
+    "script"
+   ]
+  },
+  "id": 406
+ }
+]

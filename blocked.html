@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Blocked</title>
+    <script src="blocked.js" defer></script>
+    <style>
+        html { 
+            background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(images/froggy.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        body {
+            font: bold 50px 'Quicksand', sans-serif;
+            text-align: right; 
+            padding: 15px;
+            margin-top: 10vh;
+            margin-right: 5vw;
+        }
+        h1 {
+            color: white;
+        }
+        nav { /* the background color thing is to change opacity & background without affecting children */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            text-align: left;
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 10px 0;
+            height: 70px;
+        }
+        nav a { /* if you want to add elements in navbar */
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 24px;
+            color: white;
+        }
+        .logo img {
+            width: 50px;
+            height: auto;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .title {
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 25px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: medium;
+            color: white;
+        }
+        #message {
+            margin-bottom: 180px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="the_bar">
+        <div class="logo"><img src="images/192.png"></div>
+        <div class="title">This site is blocked by Focus</div>
+        <!-- Add more links as needed -->
+    </nav>
+    <div id="message">
+        <h1>Hey...</h1>
+        <h1>I saw that</h1>
+    </div>
+</body>
+</html>
