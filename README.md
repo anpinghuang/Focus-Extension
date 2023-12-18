@@ -48,4 +48,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments 😎
 Focus uses uBlock Origin (https://github.com/gorhill/uBlock) for ad blocking and content filtering.
+
 Great article about extension (https://www.eqhacks.org/blog/focus)
